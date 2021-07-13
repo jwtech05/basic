@@ -1,12 +1,12 @@
 FROM python:3.7.6
 
-RUN echo "test"
+RUN echo "test12"
 
 WORKDIR /home/
 
 RUN git clone https://github.com/jwtech05/basic.git
 
-WORKDIR /home/progmatic/
+WORKDIR /home/basic/
 
 RUN pip install -r requirements.txt
 
