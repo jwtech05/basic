@@ -1,5 +1,7 @@
 FROM python:3.7.6
 
+RUN echo "test"
+
 WORKDIR /home/
 
 RUN git clone https://github.com/jwtech05/basic.git
